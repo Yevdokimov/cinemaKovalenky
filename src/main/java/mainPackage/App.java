@@ -32,6 +32,7 @@ public class App {
         System.out.println(key[3]);
         System.out.println(filmGenericStorageApp.read(key[4]));
         System.out.println(filmGenericStorageApp.read(key[2]));
+        System.out.println(filmGenericStorageApp.read(key[2]));
 
 
     }
