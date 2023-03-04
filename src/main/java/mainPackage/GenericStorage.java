@@ -2,7 +2,7 @@ package mainPackage;
 
 public interface GenericStorage<K, V> {
 
-    K[] create(V[] object);
+    K create(V object);
 
     V read(K key);
 
